@@ -1,9 +1,9 @@
-## Add details & Instructions on the part you develop below this line.
-### Also don't forget to use git fetch regularly when you push updates. 
+### Add details & Instructions on the part you develop below this line.
+### Also don't forget to use git fetch regularly and whenever you push updates as well. 
 
 
 -----------------------------
-# Default React Readme Below
+## Default React Readme Below
 -----------------------------
 ## Getting Started with Create React App
 
