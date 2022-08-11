@@ -1,0 +1,13 @@
+/*  
+@media screen  and (max-width:640px){
+    .header-img img{
+             width: fit-content;
+             height: 300px
+    }
+}  */
+
+@media screen and (max-width:640px){
+    .header-img{
+        border-radius: ('50% 50% 50% 50% / 50% 50% 50% 50% ');
+    }
+}
