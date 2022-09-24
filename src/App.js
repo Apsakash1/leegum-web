@@ -7,10 +7,11 @@ import Home from './components/Home'
 //import Desktop1 from './components/Desktop1';
 import Partner from './components/Partner';
 import Playstorebanner from './components/Playstorebanner';
-
+//import Form from './components/Form';
 import Ondc from './components/Ondc';
 import Blog from './components/Blog';
 import Footer from './components/Footer';
+
 //import NavbarElement from './components/Navbar/NavbarElement'
 
 function App() {
@@ -19,9 +20,11 @@ function App() {
   <Navbar/>
   <Home/>
   <Partner/>
-  
+ 
    <Ondc/>
-   <Blog/>
+
+      <Blog/>
+   
    <Playstorebanner/>
    <Footer/>
   {/* <Desktop1_1/>

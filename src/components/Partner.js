@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{Component} from 'react'
 import img from '../images/ondc3.webp'
 import step1 from '../images/step1.png'
 import step2 from '../images/step2.png'
@@ -6,8 +6,30 @@ import step3 from '../images/step3.png'
 import step4 from '../images/step4.png'
 import step5 from '../images/step5.png'
 import step6 from '../images/step6.png'
+import Modal from '../components/Enquireform';
+import '../components/Partner.css';
+
 
 const Partner=()=> {
+  const cardStyle ={
+    position:'absolute',
+    right:'70vh',
+    left:'38vh',
+    bottom:'15vh',
+    '@media (max-width: 600px)': {
+      position:'absolute',
+      right:'70vh',
+      left:'38vh',
+      bottom:'15vh',
+    },
+    '@media (min-width: 600px)': {
+      position:'absolute',
+      right:'70vh',
+      left:'38vh',
+      bottom:'15vh',
+      fontSize:'2rem'
+    },
+  }
   return (
     <>
    <div class="accordion accordion-flush container-fluid nav_bg mt-5" id="accordionFlushExample" style={{backgroundColor: '#35C342'}} >
@@ -22,7 +44,13 @@ const Partner=()=> {
           </h1>
           <p className='mt-2'style={{color:'white'}}>
           If you are a seller Register your shop now on LEEGUM and recieve all ONDC orders. <a href='/' style={{textDecorationColor:'underline', color:'blue'}}>know more (talk to us?)</a>
+          <div className='mt-3'>
+          <Modal/>
+          
+          </div>
+         
           </p>
+
           
                 </div>
                 </div>
@@ -35,25 +63,64 @@ const Partner=()=> {
     <div class="carousel-item active relative float-left w-full ">
     <div className="grid grid-cols-1  md:grid-cols-3 grid-flow-row gap-4" >
           
-<div class="max-w-sm d-none d-md-block">
-    <a href="#">
-        <img class="rounded-t-lg" src={step1}  alt=""/>
-    </a>
+<div class="max-w-sm ">
+  
+    <div class="card " style={{maxWidth: '450px'}}>
+  <div class="row g-0" >
+  <div class="col-md-6 col-sm-6 col-6">
+      <div class="card-body">
+        <h3 class="card-title mt-3 font-bold text-theme-green-base">STEP 1</h3>
+   
+        <h5 class="card-text font-semiboldt text-theme-green-dark">Install Leegum Dukaan App from Play store</h5>
+      </div>
+    </div>
+    <div  class="col-md-6 col-sm-6 col-6">
+      <img src={step1} class="img-fluid rounded-start" alt="..."/>
+    </div>
+    
+  </div>
+</div>
+      
+    
     
 </div>
 
-<div class="max-w-sm d-none d-md-block">
-    <a href="#">
-        <img class="rounded-t-lg" src={step2} alt=""/>
-    </a>
+<div class="max-w-sm" >
+<div class="card " style={{maxWidth: '450px'}}>
+  <div class="row g-0" >
+    <div  class="col-md-6 col-sm-6 col-6">
+      <img src={step2} class="img-fluid" alt="..."/>
+    </div>
+    <div class="col-md-6 col-sm-6 col-6"style={{backgroundColor:'#82EB72'}}>
+      <div class="card-body" >
+        <h3 class="card-title mt-3 text-theme-green-dark font-bold">STEP 2</h3>
+      
+        <h5 class="card-text font-semibold"><small class="text-theme-dark">Click on Detect Location button to automatically fill in your shop’slocation details.</small></h5>
+      </div>
+    </div>
+  </div>
+</div>
   
 </div>
 
-<div class=" max-w-sm d-none d-md-block">
-    <a href="#">
-        <img class="rounded-t-lg" src={step3} alt=""/>
-    </a>
+<div class=" max-w-sm">
+<div class="max-w-sm">
+<div class="card " style={{maxWidth: '450px'}}>
+  <div class="row g-0" >
+    <div  class="col-md-6 col-sm-6 col-6">
+      <img src={step3} class="img-fluid rounded-start" alt="..."/>
+    </div>
+    <div class="col-md-6 col-sm-6 col-6" style={{backgroundColor:'#82EB72'}}>
+      <div class="card-body">
+        <h3 class="card-title mt-3 font-bold text-theme-green-dark">STEP 3</h3>
   
+        <h5 class="card-text"><small class="font-semibold text-theme-dark">Enter the required details of your Shop</small></h5>
+      </div>
+    </div>
+  </div>
+</div>
+  
+</div>
 </div>
 
               </div>
@@ -62,23 +129,70 @@ const Partner=()=> {
       <div className="grid grid-cols-1 md:grid-cols-3 grid-flow-row gap-4" >
           
 <div class="max-w-sm">
-    <a href="#">
-        <img class="rounded-t-lg" src={step4}  alt=""/>
-    </a>
+<div class="max-w-sm">
+<div class="card " style={{maxWidth: '450px'}}>
+  <div class="row g-0" >
+    <div  class="col-md-6 col-sm-6 col-6">
+      <img src={step4} class="img-fluid rounded-start" alt="..."/>
+    </div>
+    <div class="col-md-6 col-sm-6 col-6"style={{backgroundColor:'#82EB72'}}>
+      <div class="card-body">
+        <h3 class="card-title mt-3 font-bold text-theme-green-dark">STEP 4</h3>
+       
+        <h5 class="card-text"><small class="text-theme-dark font-semibold">Upload the clear image of front of your Shop</small></h5>
+      </div>
+    </div>
+  </div>
+</div>
+  
+</div>
     
 </div>
 
 <div class="max-w-sm">
-    <a href="#">
-        <img class="rounded-t-lg" src={step5} alt=""/>
-    </a>
+<div class="max-w-sm">
+<div class="card " style={{maxWidth: '450px'}}>
+  <div class="row g-0" >
+    <div  class="col-md-6 col-sm-6 col-6">
+      <img src={step5} class="img-fluid rounded-start" alt="..."/>
+    </div>
+    <div class="col-md-6 col-sm-6 col-6">
+      <div class="card-body">
+        <h3 class="card-title  text-theme-green-base font-bold">STEP 5</h3>
+      
+        <h5 class=" font-semibold  card-text text-theme-green-dark">Add your products from a list of over 1000+ categories</h5>
+      
+              
+      </div>
+    </div>
+  </div>
+</div>
+  
+</div>
   
 </div>
 
 <div class=" max-w-sm">
-    <a href="#">
-        <img class="rounded-t-lg" src={step6} alt=""/>
-    </a>
+<div class="max-w-sm">
+<div class="card " style={{maxWidth: '450px'}}>
+  <div class="row g-0" >
+    <div  class="col-md-6 col-sm-6 col-6">
+      <img src={step6} class="img-fluid rounded-start" alt="..."/>
+    </div>
+    <div class="col-md-6 col-sm-6 col-6">
+      <div class="card-body">
+        <h3 class="card-title font-bold text-theme-green-base">STEP 6</h3>
+        <small>
+        <h5 class="card-text font-semibold text-theme-green-dark">Start Selling</h5>
+      <p className="text-theme-green-base font-semibold">Your online dukaan is ready.<span className='text-theme-dark'>Download the <a href='#' className='text-theme-green-base'>Leegum Dukaan</a> app now</span> </p>
+          </small>
+       
+      </div>
+    </div>
+  </div>
+</div>
+  
+</div>
   
 </div>
 

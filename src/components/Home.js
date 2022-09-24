@@ -29,8 +29,8 @@ Aos.init({ duration: 2000});
                   
                   <h1 style={{fontSize : '7vh', color:'#595656'}}>
                     <strong>
-                      No.1 App to order <br></br> 
-                      <span id="span1"></span> {/* for text animation refer index.css */}
+                      Connect your D2C store to ONDC <br></br> 
+                      {/* <span id="span1"></span> for text animation refer index.css */}
                     </strong>
                   </h1>
                   <h2 className="my-3 mt-4" style={{fontSize:'6vh',color:'#35C342'}}>

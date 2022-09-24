@@ -3,7 +3,7 @@ import ondc from "../images/ondc2.jpg"
 import {useEffect} from "react";
 import Aos from 'aos';
 import 'aos/dist/aos.css';
-
+//import { MDBIcon } from 'mdb-react-ui-kit';
 export default function Blog() {
     useEffect(()=>{
 		Aos.init({ duration: 3000});
@@ -17,7 +17,7 @@ export default function Blog() {
             <h1 className='text-theme-green-base text-4xl font-bold'style={{textAlign:'center'}}>BLOGS</h1>
             </div>
               <div className="grid grid-cols-1 md:grid-cols-3 grid-flow-row gap-4 mt-5" data-aos="slide-up" >
-          
+             
 <div class="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-900 dark:border-gray-700 rounded-shadow transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110  duration-300 ... ">
     <a href="#">
         <img class="rounded-t-lg" src=''  alt=""/>
