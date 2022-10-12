@@ -10,6 +10,7 @@ import Playstorebanner from './components/Playstorebanner';
 //import Form from './components/Form';
 import Ondc from './components/Ondc';
 import Blog from './components/Blog';
+import BotFeature from './components/BotFeature';
 import Footer from './components/Footer';
 
 //import NavbarElement from './components/Navbar/NavbarElement'
@@ -20,8 +21,8 @@ function App() {
   <Navbar/>
   <Home/>
   <Partner/>
- 
-   <Ondc/>
+  <BotFeature/>
+   {/* <Ondc/> */}
 
       <Blog/>
    

@@ -20,7 +20,7 @@ Aos.init({ duration: 2000});
     <>
       <section  id="header" className="d-flex align-items-center ">
         
-        <div className="container-fluid nav_bg">
+        <div className="container-fluid nav_bg"style={{overflowX:'hidden'}}>
           <div className="row">
             <div className="col-10 mx-auto">
               <div className="row" >
@@ -29,13 +29,12 @@ Aos.init({ duration: 2000});
                   
                   <h1 style={{fontSize : '7vh', color:'#595656'}}>
                     <strong>
-                      Connect your D2C store to ONDC <br></br> 
-                      {/* <span id="span1"></span> for text animation refer index.css */}
+                    Unlock the full potential of ONDC for your business                      {/* <span id="span1"></span> for text animation refer index.css */}
                     </strong>
                   </h1>
                   <h2 className="my-3 mt-4" style={{fontSize:'6vh',color:'#35C342'}}>
                     <strong>
-                    Your own local kirana store<br></br>now online
+                    Sell smartly with us
                       </strong></h2>
                   <h3 style={{fontSize:'3vh', color:'#595656'}}>
                     Shop directly from nearby stores.<br></br>Powered by ONDC
@@ -58,28 +57,26 @@ Aos.init({ duration: 2000});
                 
                 </div> */}
   
-                <div className="col-lg-5 col-sm-app col-md-6 order-1 order-lg-2 header-img "data-aos="zoom-in"  style={{backgroundColor:'#82EB72',borderRadius:'50% 0% 50% 50% / 50% 0% 50% 50% ',  width:'50%'}}>
+                <div className="col-lg-5 col-sm-app col-md-6 order-1 order-lg-2 header-img "data-aos="zoom-in"  style={{backgroundColor:'#82EB72',borderRadius:'50em 0em 50em 50em / 50em 0em 50em 50em ',  width:'30em'}}>
   
                   <img
                     src={screenshot}
                     className="img-fluid sm:w-screen lg:w-screen"
                     alt="home-img"
                     style={{marginLeft: '3vh'}}
-                    
                   />
-  
-                  </div>
-              
-                
+                </div>
               </div>
             </div>
           </div>
         </div>
-   
       </section>
-      
     </>
   );
 };
-
 export default Home;
+              
+                
+   
+      
+

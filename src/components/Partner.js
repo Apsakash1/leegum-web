@@ -231,4 +231,4 @@ const Partner=()=> {
   )
 }
 
-export default Partner;
+export default Partner
