@@ -10,10 +10,10 @@ export default function Blog() {
 		},[]);
   return (
  <>
-  <section id="header" className="d-flex align-items-center">
+  <section  className="d-flex align-items-center" >
         <div className="container-fluid nav_bg ">
            <div className="col-10 mx-auto">
-            <div>
+            <div id="blog">
             <h1 className='text-theme-green-base text-4xl font-bold'style={{textAlign:'center'}}>BLOGS</h1>
             </div>
               <div className="grid grid-cols-1 md:grid-cols-3 grid-flow-row gap-4 mt-5" data-aos="slide-up" >

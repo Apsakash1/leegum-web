@@ -12,7 +12,7 @@ export default function BotFeature() {
   }, []);
   return (
     <>
-    <div>
+    <div id="features" data-aos="slide-up">
     <h1 className='text-theme-dark text-4xl font-bold mt-5'style={{textAlign:'center'}}>FEATURES</h1>
     </div>
       <section

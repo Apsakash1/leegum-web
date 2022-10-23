@@ -13,6 +13,7 @@ import Blog from './components/Blog';
 import BotFeature from './components/BotFeature';
 import Footer from './components/Footer';
 
+
 //import NavbarElement from './components/Navbar/NavbarElement'
 
 function App() {
