@@ -28,17 +28,19 @@ Aos.init({ duration: 2000});
         
                 <div data-aos="slide-up" className="col-md-6 pt-5 pt-lg-0 orer-2 order-lg-1 d-flex justify-content-center flex-column">
                   
-                  <h1 style={{fontSize : '7vh', color:'#595656'}}>
+                  <h2 style={{fontSize : '7vh', color:'#595656'}}>
                     <strong>
-                    Unlock the full potential of ONDC for your business                     
+                   No.1 Platform to order                    
                     </strong>
-                  </h1>
+                  </h2>
+                  <strong><span id="span1" style={{color:"#595656"}}></span></strong>
+
                   <h2 className="my-3 mt-4" style={{fontSize:'6vh',color:'#35C342'}}>
-                    <strong>
-                    Sell smartly with us
-                      </strong></h2>
-                  <h3 style={{fontSize:'3vh', color:'#595656'}}>
-                    Shop directly from nearby stores.<br></br>Powered by ONDC
+                  
+                  Your nearby local stores <br></br>now online
+                    </h2>
+                  <h3 className="mt-3"style={{fontSize:'3vh', color:'#595656'}}>
+                    Shop on whatsapp.<br></br>Powered by ONDC
                   </h3>
                   <div className="mt-5 display-flex">
                    <a href="https://play.google.com/store/apps/details?id=com.orderandpickup.onp" target="_blank">
@@ -51,7 +53,7 @@ Aos.init({ duration: 2000});
                         Partner with US</a></Link>
                    </button>
                    <div className="mt-3">
-                   <p>Also available on</p>
+                   {/* <p>Also available on</p> */}
                    <FontAwesomeIcon icon="fa-brands fa-apple" />
                    
 

@@ -23,11 +23,11 @@ function App() {
   <Home/>
   <Partner/>
   <BotFeature/>
+  <Playstorebanner/>
    {/* <Ondc/> */}
 
       {/* <Blog/> */}
    
-   <Playstorebanner/>
    <Footer/>
   {/* <Desktop1_1/>
   <Desktop1/> */}

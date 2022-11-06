@@ -25,9 +25,9 @@ function CollapsibleExample() {
         <li className="nav-item font-semibold">
           <Link className="nav-link" to="features" spy={true} smooth={true} duration={500} style={{paddingRight:'2rem'}}><a href="" style={{textDecoration:'none', color:'grey'}}>FEATURES</a></Link>
         </li>
-        <li className="nav-item font-semibold">
+        {/* <li className="nav-item font-semibold">
           <Link className="nav-link" to="blog" spy={true} smooth={true} duration={500} style={{paddingRight:'2rem'}}><a href="" style={{textDecoration:'none', color:'grey'}}>BLOG</a></Link>
-        </li>
+        </li> */}
         <li className="nav-item font-semibold">
           <Link className="nav-link" to="contact_us" spy={true} smooth={true} duration={500} style={{paddingRight:'2rem'}}><a href="" style={{textDecoration:'none', color:'grey'}}>CONTACT US</a></Link>
         </li>

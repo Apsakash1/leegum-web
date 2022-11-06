@@ -12,8 +12,8 @@ export default function Playstorebanner() {
     return (
         <>
 
-            <section id="header" className="d-flex align-items-center mt-5 " style={{
-                backgroundColor: "MediumSeaGreen"
+            <section id="header" className="d-flex align-items-center " style={{
+                backgroundColor: "#96F69F"
                
             }}   data-aos="slide-up">
                 <div className="container-fluid nav_bg" >
@@ -24,22 +24,24 @@ export default function Playstorebanner() {
                                   
                                     className="col-md-6 pt-5 pt-lg-0 orer-2 order-lg-1 d-flex justify-content-center flex-column"
                                 >
-                                    <h2 style={{ color: "white" }}>
+                                    <sharp>
+                                    <h2 style={{ color: "#257425" }}>
 
-                                        Hey, what are you waiting for? <br></br>
+                                      Hey, what are you waiting for? <br></br>
 
 
                                     </h2>
-                                    <p
+                                    </sharp>
+                                    <sharp><p
                                         className="my-3 mt-4"
-                                        style={{ color: "white" }}
+                                        style={{ color: "#257425" }}
                                     >
                                         Download Leegum app today and never wait for groceries again.
                                         <br></br>
                                         Hurry, we're doing FREE delivery for a limited time.
 
 
-                                    </p>
+                                    </p></sharp>
                                     <a
                                         target="_blank"
                                         href="https://play.google.com/store/apps/details?id=com.orderandpickup.onp"

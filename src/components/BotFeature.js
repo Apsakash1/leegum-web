@@ -14,12 +14,12 @@ export default function BotFeature() {
   }, []);
   return (
     <>
-    <div id="features" data-aos="slide-up">
-    <h1 className='text-theme-dark text-4xl font-bold mt-5'style={{textAlign:'center'}}>FEATURES</h1>
+    <div id="features">
+    <h1 className='text-theme-dark text-4xl font-bold mt-5'style={{textAlign:'center',color:"#128C7E"}}>FEATURES</h1>
     </div>
       <section
         id="header"
-        className="d-flex align-items-center mt-5 mb-5"
+        className="d-flex align-items-center mt-5"
         style={{
           backgroundColor: "#128C7E",
         }}
