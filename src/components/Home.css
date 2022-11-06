@@ -15,14 +15,15 @@
 
 #span1:before{
     content:'';
-    animation:animate infinite 10s;
+    animation:animate infinite 7s;
 }
 
 @keyframes animate{
     0%{content:'Groceries'; font-size: 40px;  }
-    40%{content:'Medicines'; font-size: 40px;  }
-    50%{content:'Dairy'; font-size: 40px;  }
-    60%{content:'Fruits'; font-size: 40px;  }
-    75%{content:'Vegetables'; font-size: 40px;  }
-    100%{content:'Daily Needs'; font-size: 40px;  }
-}
+    25%{content:'Medicines'; font-size: 40px;  }
+    40%{content:'Dairy'; font-size: 40px;  }
+    55%{content:'Fruits'; font-size: 40px;  }
+    70%{content:'Vegetables'; font-size: 40px;  }
+    85%{content:'Daily Needs'; font-size: 40px;  }
+    100%{content:'Groceries'; font-size: 40px;  }
+}   

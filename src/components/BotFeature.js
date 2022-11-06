@@ -6,40 +6,44 @@ import playButton from "../images/getItGooglePlay.svg";
 import whatsapp from "../images/whatsapp.svg"
 import screenshot from "../images/playstore.png";
 import bot from "../images/bot.gif";
-import {BsWhatsapp} from "react-icons/bs";
+// import {BsWhatsapp} from "react-icons/bs";
 
 export default function BotFeature() {
-  useEffect(() => {
-    Aos.init({ duration: 3000 });
-  }, []);
+  // useEffect(() => {
+  //   Aos.init({ duration: 3000 });
+  // }, []);
   return (
     <>
-    <div id="features">
-    <h1 className='text-theme-dark text-4xl font-bold mt-5'style={{textAlign:'center',color:"#128C7E"}}>FEATURES</h1>
+    <div id="features" style={{marginBottom:-48, paddingTop:40, backgroundColor: "#76FE84"  }}>
+    <h1 className='text-theme-dark text-4xl font-bold mt-5'style={{textAlign:'center', backgroundColor: "#76FE84", color:'black'}}>FEATURES</h1>
     </div>
       <section
         id="header"
         className="d-flex align-items-center mt-5"
         style={{
-          backgroundColor: "#128C7E",
+          backgroundColor: "#76FE84",
+          // previous teal-ish colour 128C7E
         }}
-        data-aos="slide-up"
+        // featdata-aos="slide-up"
       >
         <div className="container-fluid nav_bg">
           <div className="row">
             <div className="col-10 mx-auto">
               <div className="row">
                 <div className="col-md-6 pt-5  pt-lg-0 orer-2 order-lg-1 d-flex justify-content-center flex-column">
-                  <h1 style={{ color: "white" }}>
-                    Easiest way to shop online
+                  <h1 style={{ color: "black" }}>
+                    Everything is better on WhatsApp
                   </h1>
-                  <h3 className="my-3 mt-4" style={{ color: "white" }}>
+                  {/* Easiest way to shop online */}
+                  <h3 className="my-3 mt-4" style={{ color: "black" }}>
                     Shop the way you chat!!
                     <br></br></h3>
-                  <h3 className="my-3 mt-4" style={{ color: "white" }}>  You can now shop online via our<br></br>
-                  <span style={{color:'#33FD16'}}>
-                    WhatsApp chatbot <br></br>
-                    </span>
+                  {/* ‎  is for Empty Space */}
+                  <h3 className="my-3 mt-4" style={{ color: "black" }}>  You will soon be able to shop online <br></br>
+                  via our ‎ 
+                  <span style={{color:'white'}}>
+                      WhatsApp chatbot <br></br>
+                  </span>
                   </h3>
                
                   
@@ -47,7 +51,7 @@ export default function BotFeature() {
                   <div className="flex align-items-center mt-4">
                   <a
                       target="_blank"
-                      href="https://wa.me/918349318108?text="
+                      href="https://wa.me/918349318108?text=Hi,"
                   >
                       <img
                           src={whatsapp}
@@ -59,7 +63,7 @@ export default function BotFeature() {
                           alt=""
                       />
                   </a>
-                  &nbsp;<h2 style={{color:"white"}}>Chat with US!!</h2>
+                  &nbsp;<h2 style={{color:"black"}}><a target="_blank" style={{color:"inherit"}} href="https://wa.me/918349318108?text=Hi,">Chat with US!!</a></h2>
                   </div>
                  
                 </div>

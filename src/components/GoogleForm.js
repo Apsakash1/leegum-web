@@ -1,7 +1,7 @@
 import React from "react";
 import { useEffect } from "react";
 import { useState } from "react";
-import { MDBIcon } from 'mdb-react-ui-kit';
+// import { MDBIcon } from 'mdb-react-ui-kit';
 
 
 import '../components/Partner.css';
@@ -37,9 +37,9 @@ export default function Modal1() {
                
             
                 <div className="p-3 flex-auto wrapper" style={{position:'relative',overflow:'hidden', paddingBottom:'56.25%'}}>
-                   <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfoFL0UUuttd64GMPZNQd5A5_VprOthZgvRzBLG6CtIrzaZqg/viewform?embedded=true" 
-                  overflow="hidden" position="absolute" top="0" left="0" width="100%"  height="500" frameborder="0" marginheight="0" marginwidth="0" >Loading…</iframe>
-                  
+                   {/* <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfoFL0UUuttd64GMPZNQd5A5_VprOthZgvRzBLG6CtIrzaZqg/viewform?embedded=true" 
+                  overflow="hidden" position="absolute" top="0" left="0" width="100%"  height="500" frameborder="0" marginheight="0" marginwidth="0" >Loading…</iframe> */}
+                  <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdRvkojp-eopwHU6TnOFDnJccJVgFtjmYaTmKyq_7FOt3R1_w/viewform?embedded=true" width="100%" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
                 </div>
 
                 {/*footer*/}

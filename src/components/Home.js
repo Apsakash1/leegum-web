@@ -1,5 +1,6 @@
 import { Button } from "bootstrap";
 import React from "react";
+import {useState} from 'react';
 import screenshot from "../images/home_screen.png";
 //import { Animator, ScrollContainer, ScrollPage, batch, Fade, FadeIn, FadeOut, Move, MoveIn, MoveOut, Sticky, StickyIn, StickyOut, Zoom, ZoomIn, ZoomOut } from "react-scroll-motion";
 // import './About.css';
@@ -12,11 +13,21 @@ import { useEffect } from "react";
 import '../components/Home.css';
 import { Link } from "react-scroll";
 const Home = () => {
+  
+    const [isHovering, setIsHovering] = useState(false);
+  
+  const handleMouseOver = () => {
+    setIsHovering(true);
+  };
+
+  const handleMouseOut = () => {
+    setIsHovering(false);
+  };
   // const ZoomInScrollOut = batch(StickyIn(), FadeIn(), ZoomIn());
-// const FadeUp = batch(Fade(), Move(), Sticky());
-useEffect(()=>{
-Aos.init({ duration: 2000});
-},[]);
+  // const FadeUp = batch(Fade(), Move(), Sticky());
+  useEffect(()=>{
+    Aos.init({ duration: 2000});
+  },[]);
   return (
     <>
       <section  id="header" className="d-flex align-items-center ">
@@ -28,19 +39,32 @@ Aos.init({ duration: 2000});
         
                 <div data-aos="slide-up" className="col-md-6 pt-5 pt-lg-0 orer-2 order-lg-1 d-flex justify-content-center flex-column">
                   
-                  <h2 style={{fontSize : '7vh', color:'#595656'}}>
+                  <h1 onMouseOver={handleMouseOut} style={{fontSize : '7vh', color:'#000000'}}>
                     <strong>
-                   No.1 Platform to order                    
+                      Leegum                    
+                    </strong>
+                  </h1>
+                  {/* Grey colour used previously here was: 595656 */}
+                  <h2 style={{fontSize : '7vh', color:'#000000'}}>
+                    <strong>
+                      No.1 Place to order                    
                     </strong>
                   </h2>
-                  <strong><span id="span1" style={{color:"#595656"}}></span></strong>
-
-                  <h2 className="my-3 mt-4" style={{fontSize:'6vh',color:'#35C342'}}>
-                  
-                  Your nearby local stores <br></br>now online
-                    </h2>
-                  <h3 className="mt-3"style={{fontSize:'3vh', color:'#595656'}}>
-                    Shop on whatsapp.<br></br>Powered by ONDC
+                  {!isHovering && <h2 onMouseOver={handleMouseOver} style={{fontSize : '7vh', color:'#000000'}}>
+                    <strong>
+                      Kirana/meds/...                    
+                    </strong>
+                  </h2>}
+                  {isHovering &&
+                    <strong><span id="span1" onMouseOut={handleMouseOut} style={{color:"#000000"}}></span></strong>
+                  }
+                  {/* <h2 className="my-3 mt-4" style={{fontSize:'6vh',color:'#35C342'}}> */}
+                  {/* Your nearby local stores <br></br>now online */}
+                  <h2 onMouseOver={handleMouseOut} className="my-3" style={{fontSize:'4vh',color:'#311111s'}}>
+                    Shop directly from nearby stores. <br></br>Powered by ONDC.
+                  </h2>
+                  <h3 onMouseOver={handleMouseOut} className="mt-3"style={{fontSize:'3vh', color:'#595656'}}>
+                    Leegum whatsapp chatbot coming soon...!!!
                   </h3>
                   <div className="mt-5 display-flex">
                    <a href="https://play.google.com/store/apps/details?id=com.orderandpickup.onp" target="_blank">

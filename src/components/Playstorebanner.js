@@ -13,9 +13,12 @@ export default function Playstorebanner() {
         <>
 
             <section id="header" className="d-flex align-items-center " style={{
-                backgroundColor: "#96F69F"
+                backgroundColor: "bg-gray-100"
+                // backgroundColor: "#96F69F"
                
-            }}   data-aos="slide-up">
+            }}   
+            // data-aos="slide-up"
+            >
                 <div className="container-fluid nav_bg" >
                     <div className="row">
                         <div className="col-10 mx-auto">
@@ -27,7 +30,7 @@ export default function Playstorebanner() {
                                     <sharp>
                                     <h2 style={{ color: "#257425" }}>
 
-                                      Hey, what are you waiting for? <br></br>
+                                      So, what are you waiting for? <br></br>
 
 
                                     </h2>
@@ -36,9 +39,12 @@ export default function Playstorebanner() {
                                         className="my-3 mt-4"
                                         style={{ color: "#257425" }}
                                     >
-                                        Download Leegum app today and never wait for groceries again.
+                                        Download Leegum app today and get first updates on all launch offers.
                                         <br></br>
-                                        Hurry, we're doing FREE delivery for a limited time.
+                                        Hurry, we're going to launch very soon.
+                                        {/* Download Leegum app today and never wait for groceries again.
+                                        <br></br>
+                                        Hurry, we're doing FREE delivery for a limited time. */}
 
 
                                     </p></sharp>

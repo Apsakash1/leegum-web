@@ -6,6 +6,8 @@ import step3 from '../images/step3.png'
 import step4 from '../images/step4.png'
 import step5 from '../images/step5.png'
 import step6 from '../images/step6.png'
+import scooty_in_city from '../images/scooty_in_city.png'
+import fill_form from '../images/fill_form.png'
 import Modal from '../components/Enquireform';
 import Modal1 from './GoogleForm'
 import '../components/Partner.css';
@@ -34,20 +36,19 @@ const Partner=()=> {
   return (
     <>
     <section id='partner'>
-    <div class="accordion accordion-flush container-fluid nav_bg mt-5" id="accordionFlushExample" style={{backgroundColor: '#35C342'}} >
+    <div class="accordion accordion-flush container-fluid nav_bg mt-5" id="accordionFlushExample" style={{backgroundColor: '#35C342', paddingBottom:40}} >
     
     <div class="accordion-item">
       <h2 class="accordion-header" id="flush-headingOne">
         <button class="accordion-button collapsed accordian-btn-color-primary" style={{backgroundColor: '#35C342', height:'100%',alignItems:'center', justifyContent:'center'}} type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
         <div className="col-10 mx-auto">
                 <div className="row" style={{alignItems:'center', justifyContent:'center',}}>
-                <h1 style={{fontSize: '5vh',color:'black'}}>
-              ATTENTION SELLERS !!
+                <h1 style={{fontSize: '4vh',color:'black'}}>
+              ATTENTION SELLERS !!!
             </h1> 
-            <h3 style={{color:'white'}}>Sell samrtly with US</h3>
-            <p className='mt-2'style={{color:'white'}}>
-            Unlock the full potential of ONDC for your business.
-            Register your shop now on LEEGUM and recieve all ONDC orders. 
+            <h3 style={{color:'white'}}>Sell smartly with Leegum</h3>
+            <p className='mt-2'style={{color:'white', fontSize:18}}>
+            Unlock the full potential of <a href="https://ondc.org/">ONDC</a> for your business.<br/>
             <div className='mt-3'>
             <Modal/>
             
@@ -80,7 +81,7 @@ const Partner=()=> {
         </div>
       </div>
       <div  class="col-md-6 col-sm-6 col-6">
-        <img src={step1} class="img-fluid rounded-start" alt="..."/>
+        <img src={fill_form} class="img-fluid rounded-start" alt="..."/>
       </div>
       
     </div>
@@ -94,7 +95,7 @@ const Partner=()=> {
   <div class="card " style={{maxWidth: '450px'}}>
     <div class="row g-0" >
       <div  class="col-md-6 col-sm-6 col-6">
-        <img src={step2} class="img-fluid" alt="..."/>
+        <img src={step6} class="img-fluid" alt="..."/>
       </div>
       <div class="col-md-6 col-sm-6 col-6"style={{backgroundColor:'#82EB72'}}>
         <div class="card-body" >
@@ -113,7 +114,7 @@ const Partner=()=> {
   <div class="card " style={{maxWidth: '450px'}}>
     <div class="row g-0" >
       <div  class="col-md-6 col-sm-6 col-6">
-        <img src={step3} class="img-fluid rounded-start" alt="..."/>
+        <img src={scooty_in_city} class="img-fluid rounded-start" alt="..."/>
       </div>
       <div class="col-md-6 col-sm-6 col-6" style={{backgroundColor:'#82EB72'}}>
         <div class="card-body">
