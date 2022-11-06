@@ -25,7 +25,7 @@ function App() {
   <BotFeature/>
    {/* <Ondc/> */}
 
-      <Blog/>
+      {/* <Blog/> */}
    
    <Playstorebanner/>
    <Footer/>

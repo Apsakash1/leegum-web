@@ -74,9 +74,7 @@ return errors;
       >
         Enquire Now
       </button>
-      <h6 class="hr-lines"> OR</h6>
-      <h6 class="mt-2"> Char on Whatsapp</h6>
-
+   
       
     </div>
      
@@ -89,50 +87,14 @@ return errors;
               {/*content*/}
               <div className="border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-white outline-none focus:outline-none">
                 {/*header*/}
-                <div className="flex items-start justify-between p-3 border-b border-solid border-slate-200 rounded-t">
-                  <h3 className="text-xl font-semibold " style={{color:'black'}}>
-                  Enquiry details
-                  </h3>
-                  <button
-                    className="p-1 ml-auto bg-transparent border-0 text-black opacity-5 float-right text-3xl leading-none font-semibold outline-none focus:outline-none"
-                    onClick={() => setShowModal(false)}
-                  >
-                    <span className="bg-transparent text-black opacity-5 h-6 w-6 text-2xl block outline-none focus:outline-none">
-                      ×
-                    </span>
-                  </button>
-                </div>
+               
             
-                <div className="relative p-3 flex-auto">
-                
-
-  <form onSubmit={handlerSubmit}>
-  <div class="row">
-    <div class="col">
-      <input type="text" class="form-control "name="firstname"placeholder="First name" value={formValue.firstname} 
-       onChange={handleChange} 
-      />
-    </div>
-    <p>{formError.firstname}</p>
-    <div class="col">
-      <input type="text"  onChange={handleChange} class="form-control" placeholder="Last name" name="lastname" value={formValue.lastname}/>
-    </div>
-    <p>{formError.lastname}</p>
-  </div>
-  <div class="row mt-3">
-    <div class="col">
-      <input type="text" onChange={handleChange} class="form-control" name="number" placeholder="Mobile number" value={formValue.number}/>
-    </div>
-    <p>{formError.number}</p>
-    <div class="col">
-      <input type="text"  onChange={handleChange} class="form-control" name="pincode"placeholder="Pincode" value={formValue.pincode}/>
-    </div>
-    <p>{formError.pincode}</p>
-  
-    <p style={{color:'black'}}>* Our team will contact you in next 3 working days</p>
-  </div>
-</form>
+                <div className="p-3 flex-auto wrapper" style={{position:'relative',overflow:'hidden', paddingBottom:'56.25%'}}>
+                   <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfoFL0UUuttd64GMPZNQd5A5_VprOthZgvRzBLG6CtIrzaZqg/viewform?embedded=true" 
+                  overflow="hidden" position="absolute" top="0" left="0" width="100%"  height="500" frameborder="0" marginheight="0" marginwidth="0" >Loading…</iframe>
+                  
                 </div>
+
                 {/*footer*/}
                 <div className="flex items-center justify-end p-2 border-t border-solid border-slate-200 rounded-b">
                   <button
@@ -142,18 +104,12 @@ return errors;
                   >
                     Close
                   </button>
-                  <button
-                    className="bg-emerald-500 text-white active:bg-emerald-600 font-bold uppercase text-sm px-3 py-1 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
-                    type="button"
-                    onClick={() => setShowModal(false)}
-                  >
-                    Save
-                  </button>
+                 
                 </div>
               </div>
             </div>
           </div>
-          <div className="opacity-25 fixed inset-0 z-40 bg-black"></div>
+         
         </>
       ) : null}
     </>

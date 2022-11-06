@@ -58,10 +58,6 @@ export default function Playstorebanner() {
 
                                 </div>
 
-                                {/* <div className="col-lg-6 order-1 order-lg-2 header-img">
-                 
-                
-                </div> */}
 
                                 <div
                                     className="col-lg-5 col-sm-app col-md-6 order-1 order-lg-2 header-img "

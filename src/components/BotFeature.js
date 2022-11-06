@@ -3,8 +3,10 @@ import { useEffect } from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import playButton from "../images/getItGooglePlay.svg";
+import whatsapp from "../images/whatsapp.svg"
 import screenshot from "../images/playstore.png";
 import bot from "../images/bot.gif";
+import {BsWhatsapp} from "react-icons/bs";
 
 export default function BotFeature() {
   useEffect(() => {
@@ -36,38 +38,33 @@ export default function BotFeature() {
                     <br></br></h3>
                   <h3 className="my-3 mt-4" style={{ color: "white" }}>  You can now shop online via our<br></br>
                   <span style={{color:'#33FD16'}}>
-                    WhatsApp chatbot
+                    WhatsApp chatbot <br></br>
                     </span>
                   </h3>
-                  <p
-                                        className="my-3 mt-4"
-                                        style={{ color: "white" }}
-                                    >
-                                        Download Leegum app today and never wait for groceries again.
-                                        <br></br>
-                                        Hurry, we're going live in your city.
-
-
-                                    </p>
-                                    <a
-                                        target="_blank"
-                                        href="https://play.google.com/store/apps/details?id=com.orderandpickup.onp" rel="noreferrer"
-                                    >
-                                        <img
-                                            src={playButton}
-                                            style={{
-                                                width: "182px",
-                                                paddingTop: "20px",
-                                                paddingBottom: "20px",
-                                            }}
-                                            alt=""
-                                        />
-                                    </a>
-
+               
+                  
+                  
+                  <div className="flex align-items-center mt-4">
+                  <a
+                      target="_blank"
+                      href="https://wa.me/918349318108?text="
+                  >
+                      <img
+                          src={whatsapp}
+                          style={{
+                              width: "80px",
+                              paddingTop: "20px",
+                              paddingBottom: "20px",
+                          }}
+                          alt=""
+                      />
+                  </a>
+                  &nbsp;<h2 style={{color:"white"}}>Chat with US!!</h2>
+                  </div>
+                 
                 </div>
 
                 <div className="col-lg-5 col-sm-app col-md-6 order-1 order-lg-2 header-img ">
-                
                   <div style={{width:"100%",height:"0",paddingBottom:"130%",position:"relative"}}>
                   <img src={bot} style={{width: "100%", maxWidth: "100%", height: "auto", marginLeft:"6vh"}} alt="gif"/>
                     </div> 
@@ -78,5 +75,11 @@ export default function BotFeature() {
         </div>
       </section>
     </>
+                  
+            
+
+
+
   );
 }
+                

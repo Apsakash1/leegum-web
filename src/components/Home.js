@@ -10,6 +10,7 @@ import Aos from 'aos'
 import 'aos/dist/aos.css';
 import { useEffect } from "react";
 import '../components/Home.css';
+import { Link } from "react-scroll";
 const Home = () => {
   // const ZoomInScrollOut = batch(StickyIn(), FadeIn(), ZoomIn());
 // const FadeUp = batch(Fade(), Move(), Sticky());
@@ -29,7 +30,7 @@ Aos.init({ duration: 2000});
                   
                   <h1 style={{fontSize : '7vh', color:'#595656'}}>
                     <strong>
-                    Unlock the full potential of ONDC for your business                      {/* <span id="span1"></span> for text animation refer index.css */}
+                    Unlock the full potential of ONDC for your business                     
                     </strong>
                   </h1>
                   <h2 className="my-3 mt-4" style={{fontSize:'6vh',color:'#35C342'}}>
@@ -40,8 +41,15 @@ Aos.init({ duration: 2000});
                     Shop directly from nearby stores.<br></br>Powered by ONDC
                   </h3>
                   <div className="mt-5 display-flex">
+                   <a href="https://play.google.com/store/apps/details?id=com.orderandpickup.onp" target="_blank">
                    <button className="btn btn-default" style={{backgroundColor:'#35C342',color:'white'}}>Get Leegum App</button>
-                   <button className="btn btn-default ml-3" style={{marginLeft:'2vh',borderColor:'#35C342'}}>Partner with us</button>
+                    </a>
+                   &nbsp;&nbsp;
+                   <button className="btn btn-default" style={{borderColor:'#35C342'}}>
+                    <Link className="nav-link" to="partner" spy={true} smooth={true} duration={500}>
+                      <a href="" style={{textDecoration:'none', color:'#35C342'}}>
+                        Partner with US</a></Link>
+                   </button>
                    <div className="mt-3">
                    <p>Also available on</p>
                    <FontAwesomeIcon icon="fa-brands fa-apple" />
@@ -57,13 +65,14 @@ Aos.init({ duration: 2000});
                 
                 </div> */}
   
-                <div className="col-lg-5 col-sm-app col-md-6 order-1 order-lg-2 header-img "data-aos="zoom-in"  style={{backgroundColor:'#82EB72',borderRadius:'50em 0em 50em 50em / 50em 0em 50em 50em ',  width:'30em'}}>
+                <div className="col-lg-5 col-sm-app col-md-6 order-1 order-lg-2 header-img"data-aos="zoom-in"  
+                style={{backgroundColor:'#82EB72',borderRadius:'50em 0em 50em 50em / 50em 0em 50em 50em ',  width:'30em'}}>
   
                   <img
                     src={screenshot}
-                    className="img-fluid sm:w-screen lg:w-screen"
+                    className="img-fluid sm:w-screen lg:w-screen ml-3"
                     alt="home-img"
-                    style={{marginLeft: '3vh'}}
+                    
                   />
                 </div>
               </div>
