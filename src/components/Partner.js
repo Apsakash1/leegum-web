@@ -75,14 +75,14 @@ const Partner=()=> {
   <div class="max-w-sm" >
   <div class="card " style={{maxWidth: '450px'}}>
     <div class="row g-0" >
-      <div  class="col-md-6 col-sm-6 col-6">
+      <div  class="col-md-6 col-sm-6 col-6" style={{backgroundColor:'#6FF56F'}}>
         <img src={step6i} class="img-fluid" alt="..."/>
       </div>
-      <div class="col-md-6 col-sm-6 col-6"style={{backgroundColor:'#82EB72'}}>
+      <div class="col-md-6 col-sm-6 col-6"style={{backgroundColor:'#6FF56F'}}>
         <div class="card-body" >
           <h3 class="card-title mt-3 text-theme-green-dark font-bold">STEP 2</h3>
         
-          <h5 class="card-text font-semibold"><small class="text-theme-dark">Sit back and relax. Our team will contact you in 3 working days</small></h5>
+          <small class="card-text font-semibold text-theme-dark">Sit back and relax. Our team will contact you in 3 working days</small>
         </div>
       </div>
     </div>
@@ -101,7 +101,7 @@ const Partner=()=> {
         <div class="card-body">
           <h3 class="card-title mt-3 font-bold text-theme-green-dark">STEP 3</h3>
     
-          <h5 class="card-text"><small class="font-semibold text-theme-dark">Build your inventory online and start selling</small></h5>
+          <small class="card-text font-semibold text-theme-dark">Build your inventory online and start selling</small>
         </div>
       </div>
     </div>

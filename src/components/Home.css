@@ -21,7 +21,7 @@
 @keyframes animate{
     0%{content:'Groceries'; font-size: 40px;  }
     25%{content:'Medicines'; font-size: 40px;  }
-    40%{content:'Dairy'; font-size: 40px;  }
+    35%{content:'Dairy'; font-size: 40px;  }
     55%{content:'Fruits'; font-size: 40px;  }
     70%{content:'Vegetables'; font-size: 40px;  }
     85%{content:'Daily Needs'; font-size: 40px;  }
