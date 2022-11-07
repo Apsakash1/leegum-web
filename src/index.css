@@ -1,3 +1,9 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@500&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,9 +11,59 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ 
+
+}
+
+.navbar{
+  background-color: #fff !important;
+}
+.navbar-brand{
+  font-size: 1.5rem !important;
+
+}
+
+.navbar a{
+  font-size: 1rem;
+}
+
+.menu_active {
+  font-weight: bold;
+  border-radius: 1px solid #565656;
+}
+.navbar a:hover{
+  color: #82EB72 !important;
+}
+
+.header-img img{
+  margin-top: 7vh;
+}
+
+
+#span1:before{
+  content:'';
+  animation:animate infinite 5s;
+}
+
+
+
+@keyframes animate{
+  0%{content:'Kirana'; font-size: 2rem;color: #35C342;  }
+  40%{content:'Medicines'; font-size: 2rem; color: #35C342; }
+  60%{content:'Dairy'; font-size: 2rem; color: #35C342; }
+  /* 60%{content:'Fruits'; font-size: 2rem;  }
+  75%{content:'Vegetables'; font-size: 2rem;  } */
+  100%{content:'Daily Needs'; font-size: 2rem; color: #35C342; }
 }

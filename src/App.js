@@ -1,24 +1,36 @@
 import logo from './logo.svg';
 import './App.css';
+import Navbar from '../src/components/Navbar';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Home from './components/Home'
+//import Desktop1_1 from './components/Desktop1_1';
+//import Desktop1 from './components/Desktop1';
+import Partner from './components/Partner';
+import Playstorebanner from './components/Playstorebanner';
+import Ondc from './components/Ondc';
+import Blog from './components/Blog';
+import BotFeature from './components/BotFeature';
+import Footer from './components/Footer';
+
+
+//import NavbarElement from './components/Navbar/NavbarElement'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+  <>
+  <Navbar/>
+  <Home/>
+  <Partner/>
+  <BotFeature/>
+  <Playstorebanner/>
+   {/* <Ondc/> */}
+
+      {/* <Blog/> */}
+   
+   <Footer/>
+  {/* <Desktop1_1/>
+  <Desktop1/> */}
+  </>
   );
 }
 
