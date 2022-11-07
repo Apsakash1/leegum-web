@@ -2,8 +2,9 @@
 ### Also don't forget to use git fetch regularly and whenever you push updates as well. 
 
 ### Updating Hosted website via github pages
-1. Run "npm run deploy"
-2. CAUTION: Go to [https://github.com/leegumindia/leegum-web/settings/pages](https://github.com/leegumindia/leegum-web/settings/pages) and update custom domain name to "leegum.com" and click save. After you click save the CNAME file will be auto generating containing leegum.com and the website will be live.
+1. Install gh-pages with this command "npm install gh-pages --save-dev"
+2. Run "npm run deploy"
+3. CAUTION: Go to [https://github.com/leegumindia/leegum-web/settings/pages](https://github.com/leegumindia/leegum-web/settings/pages) and update custom domain name to "leegum.com" and click save. After you click save the CNAME file will be auto generating containing leegum.com and the website will be live.
 
 ### First Time Hosting using github pages
 The official documentation states to add homepage parameter in package.json, but don't add when using custom domain.
