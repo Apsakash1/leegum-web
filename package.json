@@ -27,7 +27,8 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build && echo Attention!!! update custom domain name to leegum.com in github pages, refer Readme for more info.",
+    "deploy": "gh-pages -d build && npm run caution_msg",
+    "caution_msg": "echo \"---Attention!!! update custom domain name to leegum.com in github pages, refer Readme for more info.\"",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
