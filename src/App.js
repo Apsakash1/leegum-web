@@ -7,7 +7,6 @@ import Home from './components/Home'
 //import Desktop1 from './components/Desktop1';
 import Partner from './components/Partner';
 import Playstorebanner from './components/Playstorebanner';
-//import Form from './components/Form';
 import Ondc from './components/Ondc';
 import Blog from './components/Blog';
 import BotFeature from './components/BotFeature';

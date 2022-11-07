@@ -100,25 +100,27 @@ export default function Footer() {
         <h6 class="uppercase font-semibold mb-4 flex justify-center text-center md:justify-start">
           USEFUL LINKS
         </h6>
-        <p class="mb-4">
+        {/* <p class="mb-4">
           <a href="#!" class="text-gray-600 flex justify-center md:justify-start"target={'_blank'} rel="noreferrer" style={{textDecoration:'none'}}>Blog</a>
-        </p>
+        </p> */}
         <p class="mb-4">
           <a href="https://play.google.com/store/apps/details?id=com.orderandpickup.onp" style={{textDecoration:'none'}}class="text-gray-600 flex justify-center md:justify-start"target={'_blank'} rel="noreferrer">Leegum App</a>
         </p>
         <p class="mb-4">
           <a href="https://play.google.com/store/apps/details?id=com.orderandpickupforbusinesses.orderpickupforbusinesses"style={{textDecoration:'none'}} class="text-gray-600 flex justify-center md:justify-start"target={'_blank'} rel="noreferrer">Leegum Dukaan</a>
         </p>
-        <p>
+        {/* <p>
           <a href="#!" class="text-gray-600 flex justify-center md:justify-start"target={'_blank'} rel="noreferrer" style={{textDecoration:'none'}}>ONDC</a>
-        </p>
+        </p> */}
       </div>
       <div class="">
         <h6 class="uppercase font-semibold mb-4 flex justify-center md:justify-start">
           CONTACT
         </h6>
 
-        <p class="flex items-center justify-center md:justify-start mb-4">
+       <a href='mailto:leegumindia@gmail.com' target="_blank"style={{textDecoration:'none',color:"grey"}}
+       >
+       <p class="flex items-center justify-center md:justify-start mb-4">
           <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="envelope"
             class="w-4 mr-4" role="img" xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 512 512">
@@ -128,7 +130,9 @@ export default function Footer() {
           </svg>
          leegumindia@gmail.com
         </p>
-        <p class="flex items-center justify-center md:justify-start mb-4">
+        </a> 
+      <a href='tel:+918349318108' style={{textDecoration:'none',color:"grey"}}>
+      <p class="flex items-center justify-center md:justify-start mb-4">
          <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="phone"
             class="w-4 mr-4" role="img" xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 512 512">
@@ -138,6 +142,8 @@ export default function Footer() {
           </svg>
           +918349318108
         </p>
+      </a>
+       
      
       </div>
     </div>
