@@ -1,4 +1,11 @@
-# Getting Started with Create React App
+### Add details & Instructions on the part you develop below this line.
+### Also don't forget to use git fetch regularly and whenever you push updates as well. 
+
+
+-----------------------------
+## Default React Readme Below
+-----------------------------
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
