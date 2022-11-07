@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/leegum-web/static/css/main.c0f128dc.css",
+    "main.js": "/leegum-web/static/js/main.e4d268a9.js",
+    "static/js/787.f0aa2a51.chunk.js": "/leegum-web/static/js/787.f0aa2a51.chunk.js",
+    "static/media/bot.gif": "/leegum-web/static/media/bot.130acd9c92c6c11df0e9.gif",
+    "static/media/scooty_in_city.png": "/leegum-web/static/media/scooty_in_city.4d31094326619d78913d.png",
+    "static/media/step1.png": "/leegum-web/static/media/step1.aef4f73d11b7c25c887f.png",
+    "static/media/playstore.png": "/leegum-web/static/media/playstore.eed5fe49a51e49c915b2.png",
+    "static/media/home_screen.png": "/leegum-web/static/media/home_screen.89003b08455477b56368.png",
+    "static/media/queueless.png": "/leegum-web/static/media/queueless.048580ac1763fb2b37ac.png",
+    "static/media/ondc3.webp": "/leegum-web/static/media/ondc3.e834522c811396cc4db8.webp",
+    "static/media/step5.png": "/leegum-web/static/media/step5.01bf34752cec466574bc.png",
+    "static/media/step2.png": "/leegum-web/static/media/step2.640dd0ae690109b8fd2c.png",
+    "static/media/step3.png": "/leegum-web/static/media/step3.b6eec8fdfff3f0460ea1.png",
+    "static/media/step4.png": "/leegum-web/static/media/step4.fe272b35d846b9ef623a.png",
+    "static/media/step6i.png": "/leegum-web/static/media/step6i.e5fdeff1a9588b762e93.png",
+    "static/media/ondc2.jpg": "/leegum-web/static/media/ondc2.32c047d43a00d425b0ff.jpg",
+    "static/media/Asset 1.png": "/leegum-web/static/media/Asset 1.09d33da64ec58d813769.png",
+    "static/media/fill_form.png": "/leegum-web/static/media/fill_form.68b5564dc2524b470eda.png",
+    "static/media/getItGooglePlay.svg": "/leegum-web/static/media/getItGooglePlay.b9a92daa7ed1fffc8d99cd7ddd4fadbf.svg",
+    "static/media/whatsapp.svg": "/leegum-web/static/media/whatsapp.7dc3f3267bee9b39fd8d08466208e48a.svg",
+    "index.html": "/leegum-web/index.html",
+    "static/media/logo.svg": "/leegum-web/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "main.c0f128dc.css.map": "/leegum-web/static/css/main.c0f128dc.css.map",
+    "main.e4d268a9.js.map": "/leegum-web/static/js/main.e4d268a9.js.map",
+    "787.f0aa2a51.chunk.js.map": "/leegum-web/static/js/787.f0aa2a51.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c0f128dc.css",
+    "static/js/main.e4d268a9.js"
+  ]
+}
