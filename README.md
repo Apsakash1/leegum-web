@@ -1,6 +1,16 @@
 ### Add details & Instructions on the part you develop below this line.
 ### Also don't forget to use git fetch regularly and whenever you push updates as well. 
 
+### Updating Hosted website via github pages
+1. Run "npm run deploy"
+2. CAUTION: Go to [https://github.com/leegumindia/leegum-web/settings/pages](https://github.com/leegumindia/leegum-web/settings/pages) and update custom domain name to "leegum.com" and click save. After you click save the CNAME file will be auto generating containing leegum.com and the website will be live.
+
+### First Time Hosting using github pages
+The official documentation states to add homepage parameter in package.json, but don't add when using custom domain.
+    "homepage": "https://leegumindia.github.io/leegum-web",
+
+So if we add this then hosting on this(https://leegumindia.github.io/leegum-web) url will work fine but connecting it to custom domain(leegum.com) will show a blank page.
+If we don't add this then vice-versa behaviour.
 
 -----------------------------
 ## Default React Readme Below
