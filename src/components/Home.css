@@ -1,4 +1,10 @@
  
+html, body {
+    overflow-x: hidden;
+  }
+  body {
+    position: relative
+  }
 @media screen  and (max-width:640px){
     .header-img img{
              width: fit-content;

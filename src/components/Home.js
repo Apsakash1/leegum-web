@@ -68,10 +68,10 @@ const Home = () => {
                   </h3>
                   <div className="mt-5 display-flex">
                    <a href="https://play.google.com/store/apps/details?id=com.orderandpickup.onp" target="_blank">
-                   <button className="btn btn-default" style={{backgroundColor:'#35C342',color:'white'}}>Get Leegum App</button>
+                   <button className="btn btn-default mt-2 mr-2" style={{backgroundColor:'#35C342',color:'white'}}>Get Leegum App</button>
                     </a>
-                   &nbsp;&nbsp;
-                   <button className="btn btn-default" style={{borderColor:'#35C342'}}>
+                   
+                   <button className="btn btn-default mt-2" style={{borderColor:'#35C342'}}>
                     <Link className="nav-link" to="partner" spy={true} smooth={true} duration={500}>
                       <a href="" style={{textDecoration:'none', color:'#35C342'}}>
                         Partner with US</a></Link>
