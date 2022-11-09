@@ -78,7 +78,7 @@ const Partner=()=> {
       <div  class="col-md-6 col-sm-6 col-6" style={{backgroundColor:'#6FF56F'}}>
         <img src={step6i} class="img-fluid" alt="..."/>
       </div>
-      <div class="col-md-6 col-sm-6 col-6"style={{backgroundColor:'#6FF56F'}}>
+      <div class="col-md-6 col-sm-6 col-6"style={{backgroundColor:'white'}}>
         <div class="card-body" >
           <h3 class="card-title mt-3 text-theme-green-dark font-bold">STEP 2</h3>
         

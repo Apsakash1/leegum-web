@@ -5,18 +5,45 @@ html, body {
   body {
     position: relative
   }
-@media screen  and (max-width:640px){
-    .header-img img{
+
+
+  /* .border {
+    background-color:#82EB72;
+    border-radius:(50em 0em 50em 50em / 50em 0em 50em 50em );
+    width:30em
+} */
+/* @media screen  and (max-width:640px){
+    .border img {
              width: fit-content;
              height: 300px
     }
-}  
+}   */
 
+/* @media screen and (max-width: 360px) {
+    .border {
+    border-radius:(40em 0em 50em 0em / 50em 0em 30em 50em );
+    width:20em
+        
+     }
+ }
 @media screen and (max-width:640px){
-    .header-img{
-        border-radius: ('50% 50% 50% 50% / 50% 50% 50% 50% ');
+    .border {
+        border-radius:(30em 0em 50em 50em / 0em 0em 60em 90em );
+        width:20em
     }
+
 }
+
+@media screen and (max-width: 600px) {
+ .border {
+  
+ }
+  
+  } */
+
+
+ 
+ 
 
 
 #span1:before{

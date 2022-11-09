@@ -11,7 +11,7 @@ import Ondc from './components/Ondc';
 import Blog from './components/Blog';
 import BotFeature from './components/BotFeature';
 import Footer from './components/Footer';
-
+import New from './components/new';
 
 //import NavbarElement from './components/Navbar/NavbarElement'
 
@@ -23,6 +23,7 @@ function App() {
   <Partner/>
   <BotFeature/>
   <Playstorebanner/>
+  {/* <New/> */}
    {/* <Ondc/> */}
 
       {/* <Blog/> */}
