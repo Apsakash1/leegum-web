@@ -1,0 +1,34 @@
+@media screen and (max-width: 600px) {
+    .banner {
+      flex-direction: column;
+    }
+    .mobile,.screenshot{
+      width: 100%;
+      display: flex;
+      justify-content: center;
+    }
+  
+  }
+
+
+
+  @media only screen and (min-width: 768px) {
+    .mobile img, .screenshot{
+         margin-left: 10vh
+    }
+  }
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .mobile img,.screenshot{
+        margin-left: 10vh
+   }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .mobile img,.screenshot{
+        margin-left: 10vh
+   }
+}
+

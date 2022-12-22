@@ -37,20 +37,20 @@ const Home = () => {
             <div className="col-10 mx-auto">
               <div className="row" >
         
-                <div data-aos="slide-up" className="col-md-6 pt-5 pt-lg-0 orer-2 order-lg-1 d-flex justify-content-center flex-column">
+                <div data-aos="slide-up" className="col-md-6 pt-5 pt-lg-0 orer-2 order-lg-1 d-flex justify-content-center flex-column home">
                   
-                  <h1 onMouseOver={handleMouseOut} style={{fontSize : '7vh', color:'#000000'}}>
+                  <h1 onMouseOver={handleMouseOut} style={{fontSize:"3.0rem",color:'#000000'}}>
                     <strong>
                       Leegum                    
                     </strong>
                   </h1>
                   {/* Grey colour used previously here was: 595656 */}
-                  <h2 style={{fontSize : '7vh', color:'#000000'}}>
+                  <h2 className="text" style={{ fontSize:"2.5rem",color:'#000000'}}>
                     <strong>
                       No.1 Place to order                    
                     </strong>
                   </h2>
-                  {!isHovering && <h2 onMouseOver={handleMouseOver} style={{fontSize : '7vh', color:'#000000'}}>
+                  {!isHovering && <h2 onMouseOver={handleMouseOver} style={{color:'#000000',fontSize:"2.3rem"}}>
                     <strong>
                       Kirana/meds/...                    
                     </strong>
@@ -60,10 +60,10 @@ const Home = () => {
                   }
                   {/* <h2 className="my-3 mt-4" style={{fontSize:'6vh',color:'#35C342'}}> */}
                   {/* Your nearby local stores <br></br>now online */}
-                  <h2 onMouseOver={handleMouseOut} className="my-3" style={{fontSize:'4vh',color:'#311111s'}}>
+                  <h2 onMouseOver={handleMouseOut} className="my-3" style={{fontSize:'1.5rem',color:'#311111s'}}>
                     Shop directly from nearby stores. <br></br>Powered by ONDC.
                   </h2>
-                  <h3 onMouseOver={handleMouseOut} className="mt-3"style={{fontSize:'3vh', color:'#595656'}}>
+                  <h3 onMouseOver={handleMouseOut} className="mt-3"style={{fontSize:'1.2rem', color:'#595656'}}>
                     Leegum whatsapp chatbot coming soon...!!!
                   </h3>
                   <div className="mt-5 display-flex">
@@ -98,6 +98,7 @@ const Home = () => {
                     src={screenshot}
                     className="img-fluid sm:w-screen lg:w-screen ml-3"
                     alt="home-img"
+                    // style={{height:'28em',minWidth:'100'}}
                     
                   />
                 </div>

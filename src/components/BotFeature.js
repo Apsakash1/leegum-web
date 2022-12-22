@@ -6,6 +6,8 @@ import playButton from "../images/getItGooglePlay.svg";
 import whatsapp from "../images/whatsapp.svg"
 import screenshot from "../images/playstore.png";
 import bot from "../images/bot.gif";
+// import '../components/BotFeautre.css';
+
 // import {BsWhatsapp} from "react-icons/bs";
 
 export default function BotFeature() {
@@ -69,8 +71,8 @@ export default function BotFeature() {
                 </div>
 
                 <div className="col-lg-5 col-sm-app col-md-6 order-1 order-lg-2 header-img ">
-                  <div style={{width:"100%",height:"0",paddingBottom:"130%",position:"relative"}}>
-                  <img src={bot} style={{width: "100%", maxWidth: "100%", height: "auto", marginLeft:"6vh"}} alt="gif"/>
+                  <div className="gif-bot"style={{width:"100%",height:"0",paddingBottom:"130%",position:"relative"}}>
+                  <img src={bot} style={{width: "100%", maxWidth: "100%", height: "auto"}} alt="gif"/>
                     </div> 
                 </div>
               </div>

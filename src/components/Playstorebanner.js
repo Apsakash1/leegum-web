@@ -4,7 +4,7 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 import playButton from "../images/getItGooglePlay.svg";
 import screenshot from "../images/playstore.png";
-
+import '../components/Playstorebanner.css';
 export default function Playstorebanner() {
     useEffect(() => {
         Aos.init({ duration: 3000 });
@@ -20,12 +20,12 @@ export default function Playstorebanner() {
             // data-aos="slide-up"
             >
                 <div className="container-fluid nav_bg" >
-                    <div className="row">
+                    <div className="row banner">
                         <div className="col-10 mx-auto">
                             <div className="row">
                                 <div
                                   
-                                    className="col-md-6 pt-5 pt-lg-0 orer-2 order-lg-1 d-flex justify-content-center flex-column"
+                                    className="content col-md-6 pt-5 pt-lg-0 orer-2 order-lg-1 d-flex justify-content-center flex-column"
                                 >
                                     <sharp>
                                     <h2 style={{ color: "#257425" }}>
@@ -54,6 +54,7 @@ export default function Playstorebanner() {
                                     >
                                         <img
                                             src={playButton}
+                                            className='play-button'
                                             style={{
                                                 width: "182px",
                                                 paddingTop: "20px",
@@ -68,15 +69,15 @@ export default function Playstorebanner() {
 
 
                                 <div
-                                    className="col-lg-5 col-sm-app col-md-6 order-1 order-lg-2 header-img "
+                                    className="mobile col-lg-5 col-sm-app col-md-6 order-1 order-lg-2 header-img "
 
 
                                 >
                                     <img
                                         src={screenshot}
-                                        className="img-fluid sm:w-screen lg:w-screen"
+                                        className="img-fluid sm:w-screen lg:w-screen screenshot"
                                         alt="home-img"
-                                        style={{ marginLeft: "10vh" }}
+                                       
                                     />
                                 </div>
                             </div>
