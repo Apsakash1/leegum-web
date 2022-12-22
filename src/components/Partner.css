@@ -1,29 +1,8 @@
-.hr-lines{
-    position: relative;
-    max-width:300px;
-    margin: auto;
-    text-align: center;
-    width:50px;
-  }
-  
-  .hr-lines:before{
-    content:" ";
-    height: 2px;
-    width: 30px;
-    background: red;
-    display: block;
-    position: absolute;
-    top: 50%;
-    left: -20px;
-  }
-  
-  .hr-lines:after{
-    content:" ";
-    height: 2px;
-    width: 30px;
-    background: red;
-    display: block;
-    position: absolute;
-    top: 50%;
-    right: -20px;
-  }
+.blink_me {
+  animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {  
+  50% { opacity: 0; }
+}
+

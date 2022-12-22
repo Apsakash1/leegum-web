@@ -24,7 +24,9 @@ const Partner=()=> {
         <button class="accordion-button collapsed accordian-btn" style={{backgroundColor: '#35C342', height:'100%',alignItems:'center', justifyContent:'center'}} type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
         <div className="col-10 mx-auto">
                 <div className="row" style={{alignItems:'center', justifyContent:'center',}}>
-                <h1 style={{fontSize: '4vh',color:'black'}}>
+                <h1 className='blink_me' 
+                style={{fontSize: '5vh',color:'yellow'}}
+                >
               ATTENTION SELLERS !!!
             </h1> 
             <h3 style={{color:'white'}}>Sell smartly with Leegum</h3>
