@@ -11,9 +11,17 @@ import Aos from 'aos'
 import 'aos/dist/aos.css';
 import { useEffect } from "react";
 import '../components/Home.css';
+import '../components/Seller.js';
+import {Routes, Route, useNavigate, NavLink} from 'react-router-dom';
 import { Link } from "react-scroll";
 const Home = () => {
   
+  // const navigate = useNavigate();
+
+  // const navigateToSeller = () => {
+  //   // 👇️ navigate to /seller
+  //   navigate('/seller');
+  // };
     const [isHovering, setIsHovering] = useState(false);
   
   const handleMouseOver = () => {
@@ -23,6 +31,7 @@ const Home = () => {
   const handleMouseOut = () => {
     setIsHovering(false);
   };
+  
   // const ZoomInScrollOut = batch(StickyIn(), FadeIn(), ZoomIn());
   // const FadeUp = batch(Fade(), Move(), Sticky());
   useEffect(()=>{
@@ -71,11 +80,17 @@ const Home = () => {
                    <button className="btn btn-default mt-2 mr-2" style={{backgroundColor:'#35C342',color:'white'}}>Get Leegum App</button>
                     </a>
                    
-                   <button className="btn btn-default mt-2" style={{borderColor:'#35C342'}}>
-                    <Link className="nav-link" to="partner" spy={true} smooth={true} duration={500}>
+                   <button className="btn btn-default mt-2"  style={{borderColor:'#35C342'}}>
+                    <Link className="nav-link" to={'/Seller'} spy={true} smooth={true} duration={500}>
                       <a href="" style={{textDecoration:'none', color:'#35C342'}}>
-                        Partner with US</a></Link>
+                        Partner with US</a>
+                        </Link>
                    </button>
+                      
+                  
+                   
+                    
+                        
                    <div className="mt-3">
                    {/* <p>Also available on</p> */}
                    <FontAwesomeIcon icon="fa-brands fa-apple" />

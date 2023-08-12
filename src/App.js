@@ -12,9 +12,15 @@ import Blog from './components/Blog';
 import BotFeature from './components/BotFeature';
 import Footer from './components/Footer';
 import New from './components/new';
+import Modal2 from './components/Form';
 
 //import NavbarElement from './components/Navbar/NavbarElement'
+import {createRoot} from 'react-dom/client';
 
+import {BrowserRouter as Router} from 'react-router-dom';
+
+const rootElement = document.getElementById('root');
+const root = createRoot(rootElement);
 function App() {
   return (
   <>
@@ -27,11 +33,13 @@ function App() {
    {/* <Ondc/> */}
 
       {/* <Blog/> */}
-   
+   {/* <Modal2/> */}
    <Footer/>
   {/* <Desktop1_1/>
   <Desktop1/> */}
+
   </>
+ 
   );
 }
 

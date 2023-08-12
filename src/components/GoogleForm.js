@@ -7,14 +7,7 @@ function Modal1() {
 
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
-  // const [isLoading, setIsLoading]= useState(false);
-  // useEffect(()=>{
-  //   setIsLoading(true);
-  //   setTimeout(()=>{
-  //     setIsLoading(false);
-  //   },2000)
-  // },[]);
-  
+
   return (
     <>
     
@@ -22,30 +15,25 @@ function Modal1() {
       onClick={handleShow} >
         Form
       </button>
-        {/* <div className='container'> */}
-       
-            <>
-              <Modal show={show} onHide={handleClose}>
+        <Modal show={show} onHide={handleClose}>
         <Modal.Header closeButton>
         </Modal.Header>
         <Modal.Body>
-        {/* {isLoading?(
-               <div className='loader-container'>
-               <div className='spinner'>Loading…</div>
-             </div>
-          )};
-          ):( */}
-          <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdRvkojp-eopwHU6TnOFDnJccJVgFtjmYaTmKyq_7FOt3R1_w/viewform?embedded=true" width="100%" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-          </Modal.Body>
+           <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdRvkojp-eopwHU6TnOFDnJccJVgFtjmYaTmKyq_7FOt3R1_w/viewform?embedded=true" 
+           width="100%" height="500" frameborder="0" marginheight="0" marginwidth="0"></iframe>
+        </Modal.Body>
       </Modal>
-            </>
+     
+       
+         
+           
         
         
-        {/* </div> */}
+      
     
    
    
-    </>
+</>
       );
     }
     export default Modal1;
