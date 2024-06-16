@@ -1,0 +1,143 @@
+.card-body-text{
+    text-align: center;
+    color: #484646;
+    margin-top: 1rem;
+    
+}
+.card-deck{
+    display: flex;
+    flex-direction: row;
+    /* margin-top: 10px; */
+}
+
+.card{
+    align-items: center;
+    margin: 2rem;
+}
+
+.card img{
+    border-radius: 10%;
+    height: 80%;
+    width: 80%;
+}
+
+.category-text{
+    margin-left: 4rem;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px){
+   .card-deck{
+    display: flex;
+    flex-direction: column;
+    /* margin-top: 5px; */
+   }
+ 
+   .category-text{
+    margin-left: -0.5rem;
+    text-align: center;
+    font-size: larger;
+    margin-bottom: 1rem;
+ 
+
+   }
+
+   .card{
+    margin: 1rem;
+   }
+   .card img{
+    height:50%;
+    width:50%;
+   }
+   .card-title{
+    font-size: medium;
+   }
+}
+
+@media only screen and (min-width:481px) and (max-width: 560px){
+    .card-deck{
+        display: flex;
+        flex-direction: column;
+        /* margin-top: 5px; */
+       }
+     
+       .category-text{
+        margin-left: -0.5rem;
+        text-align: center;
+        font-size: x-large;
+        margin-bottom: 1rem;
+     
+    
+       }
+    
+       .card{
+        margin: 1rem;
+       }
+       .card img{
+        height:50%;
+        width:50%;
+       }
+       .card-title{
+        font-size: medium;
+       }
+
+}
+
+@media only screen and (min-width:561px) and (max-width:650px){
+    .card-deck{
+        display: flex;
+        flex-direction: column;
+        /* margin-top: 5px; */
+       }
+     
+       .category-text{
+        margin-left: -0.5rem;
+        text-align: center;
+        font-size: x-large;
+        margin-bottom: 1rem;
+     
+    
+       }
+    
+       .card{
+        margin: 1rem;
+       }
+       .card img{
+        height:50%;
+        width:50%;
+       }
+       .card-title{
+        font-size: large;
+       }
+
+}
+
+@media only screen and (min-width:651px) and (max-width: 1024px){
+    
+    .card-deck{
+        display: flex;
+        flex-direction: row;
+        /* margin-top: 5px; */
+       }
+     
+       .category-text{
+        margin-left: -0.5rem;
+        text-align: center;
+        font-size: x-large;
+        margin-bottom: 1rem;
+     
+    
+       }
+    
+       .card{
+        margin: 1rem;
+       }
+       .card img{
+        height:80%;
+        width:80%;
+       }
+       .card-title{
+        font-size: large;
+       }
+}

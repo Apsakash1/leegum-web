@@ -1,5 +1,10 @@
 import logo from "../images/Asset 1.png";
 import {Link} from "react-scroll";
+// import FaSearch from "react-icons/fa"
+// import FontAwesomeIcon from "react-icons"
+// import FontAwesomeIcon from '@fortawesome/react-fontawesome';
+import Form from 'react-bootstrap/form';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import Blog from '../components/Blog'
 function CollapsibleExample() {
   return (
@@ -18,21 +23,21 @@ function CollapsibleExample() {
       <span className="navbar-toggler-icon"></span>
     </button>
     <div className="collapse navbar-collapse" id="navbarSupportedContent">
+    <Form.Control
+              type="text"
+              placeholder="Search"
+              className=" "
+            />
       <ul className="navbar-nav ms-auto mb-2 mb-lg-0" >
-        <li className="nav-item font-semibold" style={{ paddingRight:'2rem'}}>
-          <Link className="nav-link active" aria-current="page" to="/" spy={true} smooth={true} offset={50} duration={500}><a href="" style={{textDecoration:'none',color:'#82EB72'}}>ABOUT</a></Link>
-        </li>
+     
         <li className="nav-item font-semibold">
-          <Link className="nav-link" to="features" spy={true} smooth={true} duration={500} style={{paddingRight:'2rem'}}><a href="" style={{textDecoration:'none', color:'grey'}}>FEATURES</a></Link>
+          <Link className="nav-link" to="features" spy={true} smooth={true} duration={500} style={{paddingRight:'2rem'}}><a href="" style={{textDecoration:'none', color:'grey'}}>Login</a></Link>
         </li>
-        {/* <li className="nav-item font-semibold">
-          <Link className="nav-link" to="blog" spy={true} smooth={true} duration={500} style={{paddingRight:'2rem'}}><a href="" style={{textDecoration:'none', color:'grey'}}>BLOG</a></Link>
-        </li> */}
-        <li className="nav-item font-semibold">
-          <Link className="nav-link" to="contact_us" spy={true} smooth={true} duration={500} style={{paddingRight:'2rem'}}><a href="" style={{textDecoration:'none', color:'grey'}}>CONTACT US</a></Link>
-        </li>
+       <FontAwesomeIcon icon="fa-solid fa-magnifying-glass" />
+    
+        
         <Link className="nav-link" to="partner" spy={true} smooth={true} duration={500} >
-        <button type="button" class="btn btn-default" style={{backgroundColor:'#82EB72',color:'white',width:'10rem', borderRadius:'5rem'}}>Partner with us
+        <button type="button" class="btn btn-default" style={{backgroundColor:'#82EB72',color:'white',width:'10rem', borderRadius:'5rem'}}>Cart
         </button>
         </Link>
       

@@ -1,0 +1,289 @@
+.heading{
+    margin-left: 4rem;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+}
+.card-deck-div{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+}
+
+.container{
+    border-radius: 1rem;
+    margin: 3rem;
+    
+}
+.container-img{
+    margin: 0.5rem;
+    margin-top: 1rem;
+}
+
+.container-img img{
+    border-radius: 1rem;
+    align-items: center;
+    
+    /* height: 20rem; */
+
+}
+
+.content-div{
+    margin: 1rem;
+    margin-top: 0.5rem;
+}
+.text{
+    margin: 1rem;
+}
+
+.address {
+    font-size: x-large;
+}
+
+.rating{
+    /* background-color: #126A04; */
+    text-align: center;
+    margin-bottom: 2rem;
+    
+
+}
+
+.items{
+    margin-left: 1rem;
+}
+
+@media only screen and (min-width:320px) and (max-width: 480px){
+    .card-deck-div{
+        margin: 4rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .heading{
+        margin-left: -0.5rem;
+        text-align: center;
+        font-size: larger;
+        margin-bottom: 1rem;
+    }
+  
+     .container{
+       
+         margin-top: -1rem;
+         align-items: center;
+         justify-content: center;
+    
+    }
+
+    .container-img{
+        margin:0.5rem;
+        margin-top: 1rem;
+    }
+
+    .content-div h2{
+       font-size: large;
+    }
+    .address{
+        font-size: medium;
+    }
+    .items{
+        font-size: small;
+    }
+    .rating h6{
+        font-size: small;
+    }
+    .footer{
+        margin-top: -0.5rem;
+    }
+    
+
+}
+
+@media only screen and (min-width:481px) and (max-width:580px){
+
+    .heading{
+        margin-left: -0.5rem;
+        text-align: center;
+        font-size: x-large;
+        
+    }
+    .card-deck-div{
+        margin: 8rem;
+        margin-top: 2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+  
+     .container{
+       
+         margin-top: -1rem;
+         align-items: center;
+         justify-content: center;
+    
+    }
+
+    .container-img{
+        margin:0.5rem;
+        margin-top: 1rem;
+    }
+
+    .content-div h2{
+       font-size: large;
+    }
+    .address{
+        font-size: medium;
+    }
+    .items{
+        font-size: small;
+    }
+    .rating h6{
+        font-size: small;
+    }
+    .footer{
+        margin-top: -0.5rem;
+    }
+    
+}
+
+@media only screen and (min-width:581px) and (max-width:650px){
+
+    .heading{
+        margin-left: -0.5rem;
+        text-align: center;
+        font-size: x-large;
+        
+    }
+    .card-deck-div{
+        margin: 10rem;
+        margin-top: 2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+  
+     .container{
+       
+         margin-top: -1rem;
+         align-items: center;
+         justify-content: center;
+    
+    }
+
+    .container-img{
+        margin:0.5rem;
+        margin-top: 1rem;
+    }
+
+    .content-div h2{
+       font-size: large;
+    }
+    .address{
+        font-size: medium;
+    }
+    .items{
+        font-size: small;
+    }
+    .rating h6{
+        font-size: small;
+    }
+    .footer{
+        margin-top: -0.5rem;
+    }
+    
+}
+
+@media only screen and (min-width:651px) and (max-width:720px){
+
+    .heading{
+        margin-left: -0.5rem;
+        text-align: center;
+        font-size: x-large;
+        
+    }
+    .card-deck-div{
+        margin: 0rem;
+        margin-top: 2rem;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+  
+     .container{
+       
+         margin: 1rem;
+         
+    }
+
+    .container-img{
+        margin:0.5rem;
+        margin-top: 1rem;
+    }
+
+    .content-div h2{
+       font-size: large;
+    }
+    .address{
+        font-size: medium;
+    }
+    .items{
+        font-size: small;
+    }
+    .rating h6{
+        font-size: small;
+    }
+    .footer{
+        margin-top: -0.5rem;
+    }
+    
+}
+
+@media only screen and (min-width:721px) and (max-width:1024px){
+    .heading{
+    margin-left: 4rem;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+}
+.card-deck-div{
+    margin: 0rem;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+   .container{
+    border-radius: 1rem;
+    margin: 1rem;
+    
+}
+   
+
+    .container-img{
+        margin:0.5rem;
+        margin-top: 1rem;
+    }
+
+    .content-div h2{
+       font-size: large;
+    }
+    .address{
+        font-size: medium;
+    }
+    .items{
+        font-size: small;
+    }
+    .rating h6{
+        font-size: small;
+    }
+    .footer{
+        margin-top: -0.5rem;
+    }
+    
+}
+
+
+
